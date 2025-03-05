@@ -36,7 +36,7 @@ octave = step_in/1200;
 aux_var = fix(octave) - octave;
 aux_var = abs(aux_var);
 
-%% octave finde
+% octave finder
 if aux_var >= 0.95
     octave = ceil(octave); %octave
 %     fprintf('\n\n Error 1 \n\n')
@@ -47,7 +47,7 @@ else
     octave = fix(octave);
 end
 
-%% note finder
+% note finder
 
 
 cents = step_in-(octave*1200);
